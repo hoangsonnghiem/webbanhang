@@ -1,0 +1,169 @@
+.no-decor
+{
+	text-decoration: none ;
+	list-style-type: none ;
+	color: black ;
+}
+
+.align-center
+{
+	vertical-align: middle;
+}
+
+.right-float
+{
+	float: right;
+}
+
+.right-border
+{
+	border-right: 2px solid black;
+}
+
+.flex-box
+{
+	display: flex;
+}
+
+.flex-1
+{
+	flex: 1;
+}
+
+.header
+{
+	width: 100%;
+	border-bottom: 1px solid red;
+}
+
+.header ul
+{
+	width: 100%;
+}
+
+.menu-item
+{
+	display: inline-block;
+	height: 100%;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.menu-item a
+{
+	padding: 10px 20px;
+}
+
+.logo
+{
+	font-size: 28px;
+	font-weight: bold;
+	padding-right: 50px;
+}
+
+.smart-content, .appliance-content , .tv-content{
+	display: none;
+	position: absolute;
+	min-width: 250px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 10px 15px;
+	z-index: 10;
+	background-color: white;
+}
+
+.smart-content a, .appliance-content a, .tv-content a
+{
+	display: block;
+	padding: 10px 15px !important;
+}
+
+.smart:hover .smart-content, .home-appliance:hover .appliance-content, .tv-av:hover .tv-content
+{
+	display: block;
+}
+
+.smart-content a:hover, .appliance-content a:hover
+{
+	background-color: blue !important;
+	color: white !important;
+}
+
+.menu-item a:hover
+{
+	background-color: blue;
+	color: white;
+}
+
+.custom-carousel
+{
+	width: 100%;
+	height: 500px !important;
+	max-height:500px !important;
+}
+
+.input-box
+{
+	margin: 10px 150px 0 10px;
+}
+
+.search-field
+{
+	width: 300px;
+	font-size: 18px;
+	margin-top: 14px;
+}
+
+.search-icon
+{
+	margin: 0 10px 0 10px;
+	width: 36px;
+	height: 36px;
+}
+
+.main-body
+{
+	margin: 20px 2.5% 20px 2.5%;
+	width: 95%;
+	min-height: 500px;
+}
+
+.title-section
+{
+	width: 100%;
+	height: 50px;
+	font-size: 32px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10px 0 20px 0;
+	font-weight: bold;
+	border-bottom: 2px solid black;
+}
+
+.product-section
+{
+	width: 100%;
+}
+
+.product-img
+{
+	width: 90%;
+}
+
+.product-spec
+{
+	width: 90%;
+	padding: 15px 2.5%;
+	font-weight: 100px;
+}
+
+.checked {
+  color: orange;
+}
+
+.footer
+{
+	width: 95%;
+	margin: 20px 2.5%;
+	min-height: 200px;
+	background-color: red;
+}
